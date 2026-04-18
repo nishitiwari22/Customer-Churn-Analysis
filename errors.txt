@@ -1,0 +1,4 @@
+import pickle
+from turtle import st
+model = pickle.load(open("model.pkl", "rb"))
+st.title("Customer Churn Predictor")
